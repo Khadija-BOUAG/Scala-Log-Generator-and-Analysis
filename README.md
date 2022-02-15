@@ -1,8 +1,8 @@
 # Scala-Log-Generator-and-Analysis
 ## WorkFlow :
 ![image](flow.png)
-1. Generate logs using log-generator.py file
-2. Save each 10 logs in a separate file :
+**1. Generate logs** using log-generator.py file
+**2. Save each 10 logs in a separate file** :
 
 ```
 while :; do
@@ -24,12 +24,12 @@ the different batches to store in elasticsearch.
 
 ```
 
-3. Get the output from Spark Streaming To ElasticSearch :
+**3. Get the output from Spark Streaming To ElasticSearch** :
 The output in elasticsearch (number of hits) is increasing over the time.
 
 ![image2](elastic.jpg)
 
-5. Create Dashboard on Kibana :
+**5. Create Dashboard on Kibana** :
 
 ![image3](kibana.png)
 
