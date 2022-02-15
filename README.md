@@ -14,8 +14,15 @@ done
 The data of each file will be stored thereafter in data
 frames composed of 5 columns: Protocol, Http, Url, Path and Ip thus constitute
 the different batches to store in elasticsearch.
+```
+   val schema = StructType(List(
+      StructField("Protocol", StringType , nullable = true),
+      StructField("Http", IntegerType , nullable = true),
+      StructField("Url", StringType, nullable = true),
+      StructField("Path", StringType, nullable = true),
+      StructField("Ip", StringType, nullable = true)))
 
-![image1](schema.png)
+```
 
 3. Get the output from Spark Streaming To ElasticSearch :
 The output in elasticsearch (number of hits) is increasing over the time.
