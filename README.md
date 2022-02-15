@@ -28,6 +28,7 @@ the different batches to store in elasticsearch.
 The output in elasticsearch (number of hits) is increasing over the time.
 
 ![image2](elastic.jpg)
+
 5. Create Dashboard on Kibana :
 
 ![image3](kibana.png)
