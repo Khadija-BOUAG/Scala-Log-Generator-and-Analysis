@@ -16,9 +16,9 @@ frames composed of 5 columns: Protocol, Http, Url, Path and Ip thus constitute
 the different batches to store in elasticsearch.
 
 3. Get the output from Spark Streaming To ElasticSearch :
-![image](elastic.png)
+![image2](elastic.png)
 5. Create Dashboard on Kibana :
-![image](kibana.jpg)
+![image3](kibana.jpg)
 
 ## Dependencies :
 `"org.apache.spark" %% "spark-core" % "2.4.6",
@@ -31,5 +31,5 @@ the different batches to store in elasticsearch.
   
   "org.scala-sbt" %% "util-logging" % "1.6.0",
 
-"org.elasticsearch" %% "elasticsearch-spark-20" % "7.16.2"
-`
+"org.elasticsearch" %% "elasticsearch-spark-20" % "7.16.2"`
+
