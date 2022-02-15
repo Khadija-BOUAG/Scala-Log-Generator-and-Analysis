@@ -15,14 +15,19 @@ The data of each file will be stored thereafter in data
 frames composed of 5 columns: Protocol, Http, Url, Path and Ip thus constitute
 the different batches to store in elasticsearch.
 
+![image1](schema.png)
+
 3. Get the output from Spark Streaming To ElasticSearch :
+The output in elasticsearch (number of hits) is increasing over the time.
+
 ![image2](elastic.jpg)
 5. Create Dashboard on Kibana :
+
 ![image3](kibana.png)
 
 ## Dependencies :
 ```
-"org.apache.spark" %% "spark-core" % "2.4.6",
+  "org.apache.spark" %% "spark-core" % "2.4.6",
   
   "org.apache.spark" %% "spark-sql" % "2.4.6",
   
@@ -32,6 +37,6 @@ the different batches to store in elasticsearch.
   
   "org.scala-sbt" %% "util-logging" % "1.6.0",
 
-"org.elasticsearch" %% "elasticsearch-spark-20" % "7.16.2"
+  "org.elasticsearch" %% "elasticsearch-spark-20" % "7.16.2"
 ```
 
