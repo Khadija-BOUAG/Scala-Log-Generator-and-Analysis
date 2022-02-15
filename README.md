@@ -1,6 +1,6 @@
 # Scala-Log-Generator-and-Analysis
 ## Steps :
-![image](../flow.png)
+![image](flow.png)
 1. Generate logs using log-generator.py file
 2. Save each 10 logs in a separate file :
 `
@@ -14,9 +14,9 @@ frames composed of 5 columns: Protocol, Http, Url, Path and Ip thus constitute
 the different batches to store in elasticsearch.
 
 3. Get the output from Spark Streaming To ElasticSearch :
-![image](../elastic.png)
+![image](elastic.png)
 5. Create Dashboard on Kibana :
-![image](../kibana.png)
+![image](kibana.jpg)
 
 ## Dependencies :
 `
