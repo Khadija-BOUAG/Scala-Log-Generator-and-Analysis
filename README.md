@@ -1,5 +1,5 @@
 # Scala-Log-Generator-and-Analysis
-## Steps :
+## WorkFlow :
 ![image](flow.png)
 1. Generate logs using log-generator.py file
 2. Save each 10 logs in a separate file :
