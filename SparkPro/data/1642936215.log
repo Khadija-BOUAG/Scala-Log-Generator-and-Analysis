@@ -1,0 +1,10 @@
+HTTP 300 www.gigaom.com /products.html 193.127.112.67
+HTTP 504 hadoop.apache.org /products.html 210.175.6.201
+HTTP 505 hadoop.apache.org /about.html 5.228.181.180
+HTTP 503 www.infiniteskills.com /support.html 120.60.113.70
+HTTP 424 www.infiniteskills.com /about.html 37.150.183.214
+HTTP 401 www.quicloud.com /contact/submit.html 155.179.61.207
+HTTP 226 www.quicloud.com /about.html 118.28.183.120
+HTTP 401 www.gigaom.com /index.html 137.214.27.4
+HTTP 423 hadoop.apache.org /contact/submit.html 220.18.32.77
+HTTP 400 www.quicloud.com /contact/submit.html 46.179.174.187

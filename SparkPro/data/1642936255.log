@@ -1,0 +1,10 @@
+HTTP 502 www.cloudera.com /about.html 206.69.65.15
+HTTP 504 hadoop.apache.org /contact.html 252.109.143.181
+HTTP 202 www.cloudera.com /services.html 235.250.130.151
+HTTP 301 console.amazon.com /index.html 92.70.43.189
+HTTP 505 hadoop.apache.org /contact.html 80.152.110.88
+HTTP 402 www.infiniteskills.com /index.html 66.104.154.115
+HTTP 205 www.cloudera.com /contact/submit.html 172.86.183.154
+HTTP 424 www.cloudera.com /contact.html 96.146.98.109
+HTTP 400 console.amazon.com /index.html 39.35.38.175
+HTTP 100 hadoop.apache.org /support.html 170.3.154.55
